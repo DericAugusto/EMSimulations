@@ -1,0 +1,181 @@
+\usepackage[utf8]{inputenc} % Allows input of international characters (UTF-8 encoding).
+
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+
+% Color definitions for use in documents, with predefined color sets.
+\usepackage[x11names,dvipsnames,svgnames,table]{xcolor} 
+
+\usepackage[export]{adjustbox} % Extends the graphicx package with options for clipping and scaling graphics.
+\usepackage{afterpage} % Execute command after the next page break.
+
+\usepackage{graphicx} % Enhanced support for graphics.
+\usepackage{placeins} % Control float placement with \FloatBarrier command.
+\usepackage{pdfpages} % Include PDF documents in LaTeX.
+\usepackage{algorithm2e} % Environment for writing algorithms with different styles.
+\usepackage{array} % Extending the array and tabular environments.
+\usepackage{booktabs} % Publication quality tables in LaTeX.
+\usepackage[most]{tcolorbox} % Colored text boxes with advanced features.
+\usepackage{calligra} % Support for the Calligra handwriting font.
+\usepackage{caption} % Customizing captions in floating environments.
+\usepackage{datetime} % Change format of \today with commands for current time.
+\usepackage{dblfnote} % Double-column footnotes.
+\usepackage{dirtytalk} % Simplify the typesetting of quotations.
+\usepackage{dsfont} % Double stroke font for mathematical use.
+\usepackage{etex} % Extended TeX, provides more registers.
+\usepackage{fancyhdr} % Extensive control of page headers and footers.
+\usepackage{fix-cm} % Permit Computer Modern fonts at arbitrary sizes.
+\usepackage[T1]{fontenc} % Standard package for selecting font encodings.
+\usepackage{textcomp,gensymb} % Access to text companion symbols and generic symbols, respectively.
+
+% Repeated due to possible error; this package is already listed above.
+\usepackage{graphicx} % Enhanced support for graphics.
+
+\usepackage{lipsum} % Easy access to the Lorem Ipsum dummy text.
+\usepackage{listings} % Typeset source code listings.
+\usepackage{transparent} % Setting the transparency of text, drawings, etc.
+\usepackage[everyline=true,framemethod=tikz]{mdframed} % Framed environments that can split at page boundaries.
+\usepackage{mparhack} % Workaround for a LaTeX bug in marginpars.
+\usepackage{multicol} % Interference between multicols and other packages.
+\usepackage{multirow} % Create tabular cells spanning multiple rows.
+
+%\usepackage{parskip} % Adjust the space between paragraphs.
+
+
+\usepackage{lscape} % Place selected parts of a document in landscape.
+\usepackage{pdflscape} % Make landscape pages display as landscape.
+
+% Repeated due to possible error; this package is already listed above.
+\usepackage{pdfpages} % Include PDF documents in LaTeX.
+
+% Repeated due to possible error; this package is already listed above.
+\usepackage{placeins} % Control float placement with \FloatBarrier command.
+
+\usepackage[document]{ragged2e} % Alternative to the standard justified text.
+\usepackage{rotating} % Rotation tools, including rotated full-page floats.
+\usepackage{setspace} % Set space between lines in a document.
+\usepackage{subcaption} % Support for sub-captions.
+\usepackage{threeparttable} % Tables with captions and notes all the same width.
+\usepackage[normalem]{ulem} % Package for underlining.
+\usepackage{verbatim} % Reimplementation of and extensions to LaTeX verbatim.
+\usepackage{soul} % Hyphenatable letterspacing, underlining, and more.
+
+\usepackage[titletoc,title,header]{appendix} % Advanced appendix configuration, adding it to TOC, etc.
+
+% Repeated due to possible error; this package is already listed above.
+\usepackage[utf8]{inputenc} % Allows input of international characters (UTF-8 encoding).
+
+\usepackage[french]{babel} % French language support.
+
+\setlength{\parindent}{20pt}
+
+\usepackage{csquotes} % Context sensitive quotation facilities.
+
+\usepackage[a4paper]{geometry} % Flexible and complete interface to document dimensions.
+\usepackage{lastpage} % Reference the number of pages in your LaTeX document.
+
+\usepackage{url} % Verbatim with URL-sensitive line breaks.
+\usepackage[hidelinks]{hyperref} % Extensive support for hypertext in LaTeX.
+\usepackage{cleveref} % Intelligent cross-referencing.
+
+%\usepackage[nottoc]{tocbibind} % Adds bibliography/index/contents to Table of Contents.
+
+
+\usepackage{amsmath} % mathematical facilities for LaTeX.
+
+\usepackage{mathtools} % An extension of amsmath that improves its formulas.
+
+\setcounter{secnumdepth}{5} % Allows numbering up to 5 levels deep in sections.
+
+\usepackage{enumitem} % Control layout of itemize, enumerate, description.
+
+\usepackage[backgroundcolor=yellow]{todonotes} % Adding todo notes with several options for editing.
+
+\usepackage{url} % Verbatim with URL-sensitive line breaks. (Repeated, consider removing duplicates)
+
+\urlstyle{same} % URL font style.
+
+\usepackage[acronym,nonumberlist,toc,section=subsection,numberedsection=nolabel]{glossaries}
+% Create glossaries and lists of acronyms.
+
+\makeglossaries % Generate the glossaries.
+
+\input{tex_files/0_glossaire.tex} % Include glossary entries from an external file.
+
+\linespread{1.25} % Line spacing command, this sets the spacing to 1.25x the normal spacing.
+
+\usepackage{siunitx} %A comprehensive (SI) units package.
+\usepackage{svg} %Includes and manipulates scalable vector graphics (SVG).
+\usepackage[rightcaption]{sidecap} %Adds typeset captions to the right of figures or tables.
+\usepackage{wrapfig} %Allows figures or tables to have text wrapped around them. (Note: Listed twice, consider removing duplicates)
+\usepackage{multirow} %Creates tabular cells spanning multiple rows. (This package was listed before, but it's included again for clarity as it's also present in the new list.)
+\usepackage{tabu} %Provides an enhanced tabular environment.
+\usepackage{steinmetz} %Adds the command for phasor notation in electrical engineering.
+\usepackage{eso-pic} %Adds one or more user commands to LaTeX's shipout actions.
+
+% ------------IDENTATION AND SPACE BETWEEN PARAGRAPHS ---------------
+\usepackage{indentfirst} %Indents the first paragraph of each section.
+
+\setlength{\parindent}{20pt} % Sets the indentation for paragraphs, adjust the value as needed.
+\setlength{\parskip}{1em plus 0.5em minus 0.2em} % Sets the spacing between paragraphs, adjust the value as needed.
+\usepackage{etoolbox} % Required for patching commands
+
+% Save the original parskip value
+\newlength{\originalparskip}
+\setlength{\originalparskip}{\parskip}
+
+% Command to set parskip to zero within TOC, LOF, LOT
+\newcommand{\setzero}{
+  \setlength{\parskip}{0pt}
+}
+
+% Command to reset parskip to original value
+\newcommand{\resetparskip}{
+  \setlength{\parskip}{\originalparskip}
+}
+
+% Patch the tableofcontents, listoffigures, and listoftables commands
+\pretocmd{\tableofcontents}{\setzero}{}{}
+\pretocmd{\listoffigures}{\setzero}{}{}
+\pretocmd{\listoftables}{\setzero}{}{}
+
+\apptocmd{\tableofcontents}{\resetparskip}{}{}
+\apptocmd{\listoffigures}{\resetparskip}{}{}
+\apptocmd{\listoftables}{\resetparskip}{}{}
+% --------------------------------------------
+
+\usepackage{geometry}
+\geometry{
+  top=1in,    % Top margin
+  bottom=1in, % Bottom margin
+  left=1.25in,   % Left margin (binding side)
+  right=1in     % Right margin
+}
+
+\usepackage{titlesec}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

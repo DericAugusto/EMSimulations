@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+
+\input{tex_files/1_packages.tex}
+
+\begin{document}
+
+% firt pages configuration ------
+\newgeometry{
+  top=1in,
+  bottom=1in,
+  left=1in,
+  right=1in
+}
+
+
+\input{tex_files/2_titre.tex}
+\thispagestyle{empty}
+
+
+%\section*{Remerciements}
+%\input{tex_files/3_remerciements.tex}
+%\pagebreak
+
+\setcounter{tocdepth}{5}
+
+\tableofcontents
+\thispagestyle{empty}
+
+\pagebreak
+
+\listoffigures
+\thispagestyle{empty}
+
+%\listoftables
+%\thispagestyle{empty}
+%\pagebreak
+
+\justify
+
+%\section*{Résumé}
+%\input{tex_files/4_resume.tex}
+%\pagebreak
+
+\restoregeometry
+\setcounter{page}{1}
+
+\section{Introduction}
+\input{tex_files/5_introduction.tex}
+
+%\section{Literature Review}
+%\input{2_body/literature.tex}
+
+\section{Méthodologie}
+\input{tex_files/6_methodologie.tex}
+
+\newpage
+\section{Résultats et discussions}
+\input{tex_files/7_resultats_discussions}
+
+\text{ }
+
+\FloatBarrier
+\newpage
+\section{Conclusions}
+\input{tex_files/8_conclusions.tex}
+
+\newpage
+\section{Bibliographie}
+\label{sec:ref}
+% Temporarily disable section titles right before the bibliography
+\titleformat{\section}[block]{\Large\bfseries}{}{0pt}{\vspace{-\baselineskip}\phantom}
+\bibliographystyle{unsrt}
+\bibliography{references}
+% Re-enable section titles after the bibliography
+\titleformat{\section}[block]{\Large\bfseries}{\thesection}{1em}{}
+
+%\newpage
+%\section{Appendices}
+%\input{tex_files/9_appendices.tex}
+
+\end{document}

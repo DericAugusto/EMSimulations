@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2024-02-11T14:29:27.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="39DUkp8jKxtT3r2zmf36" version="23.1.2" type="device">
+  <diagram name="Página-1" id="fvW9khtwhYqxGIUl-ZdG">
+    <mxGraphModel dx="743" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sTG0me55Y1syV8i09y39-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sTG0me55Y1syV8i09y39-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-1" value="contrôleur PI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="sTG0me55Y1syV8i09y39-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sTG0me55Y1syV8i09y39-30" target="sTG0me55Y1syV8i09y39-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.439;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sTG0me55Y1syV8i09y39-30" target="sTG0me55Y1syV8i09y39-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="290" />
+              <mxPoint x="500" y="40" />
+              <mxPoint x="845" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-30" value="courants du rotor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="sTG0me55Y1syV8i09y39-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="850" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-31" value="tensions d&#39;alimentation du rotor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="820" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sTG0me55Y1syV8i09y39-32" target="sTG0me55Y1syV8i09y39-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-32" value="machine &lt;br&gt;asynchrone &lt;br&gt;à double alimentation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="645" y="350" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sTG0me55Y1syV8i09y39-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-39" value="contrôleur &lt;br&gt;de puissance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sTG0me55Y1syV8i09y39-41" target="sTG0me55Y1syV8i09y39-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-41" value="facteur de puissance désirée" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="sTG0me55Y1syV8i09y39-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="700" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.973;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="sTG0me55Y1syV8i09y39-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="80" as="targetPoint" />
+            <mxPoint x="660" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="920" y="490" />
+              <mxPoint x="920" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-45" value="alimentation du stator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="475" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-46" value="réseau" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="470" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="489.85999999999996" as="sourcePoint" />
+            <mxPoint x="570" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="490.16" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sTG0me55Y1syV8i09y39-50" target="sTG0me55Y1syV8i09y39-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-50" value="calcul du &lt;br&gt;facteur de&lt;br&gt;puissance &lt;br&gt;actuel&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="810" y="60" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="sTG0me55Y1syV8i09y39-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="849" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="849" y="190" />
+              <mxPoint x="849" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTG0me55Y1syV8i09y39-13" value="courants de référence&amp;nbsp;&lt;br&gt;du rotor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="655" y="180" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
